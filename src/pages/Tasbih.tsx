@@ -194,7 +194,7 @@ export default function Tasbih() {
       <HadithSection />
 
       <footer className="border-t border-border/60 px-6 py-4 text-center text-xs text-muted-foreground">
-        يعمل دون اتصال — بياناتك محفوظة على جهازك
+        يعمل دون اتصال — كل شيء محفوظ على هذا الجهاز
       </footer>
     </div>
   );

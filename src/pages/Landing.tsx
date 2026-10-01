@@ -7,17 +7,17 @@ const FEATURES = [
   {
     icon: Hash,
     title: "عدّادٌ لا يضيع",
-    text: "يُحفظ مجموعُ صلواتك على جهازك تلقائيًا، ويعود بعد إغلاق التطبيق.",
+    text: "يُحفظ مجموعُ صلواتك تلقائيًا على هذا الجهاز، ويعود كما تركته في كل مرة.",
   },
   {
     icon: CircleDot,
     title: "سبحةٌ عائمة",
-    text: "سبحة ذهبية صغيرة تلازمك فوق الصفحات؛ اضغطها للعدّ، واسحبها إلى ✕ لإغلاقها.",
+    text: "سبحة صغيرة فوق الصفحات: اضغطها للعدّ، اسحبها أين شئت، وأفلتها فوق ✕ لإغلاقها.",
   },
   {
     icon: BookOpen,
     title: "أحاديث موثوقة",
-    text: "فضل الصلاة على النبي ﷺ من البخاري ومسلم وغيرهما، وكلٌّ بمصدره.",
+    text: "فضلُ الصلاة على النبي ﷺ من البخاري ومسلم وغيرهما، وكلٌّ بمصدره.",
   },
 ];
 
@@ -69,18 +69,15 @@ export default function Landing() {
             صلِّ على النبي <span className="text-gold">ﷺ</span>
           </h1>
           <p className="mt-6 max-w-md text-base leading-8 text-muted-foreground">
-            عدّادٌ هادئ للصلاة على النبي، وسبحةٌ عائمة تلازمك أينما كنت، وتذكيرٌ
-            خفيفٌ يومَ الجمعة — كلٌّ ذلك دون اتصال.
+            عدّادٌ للصلاة على النبي ﷺ، وسبحةٌ صغيرة تلازمك، وتذكيرٌ يومَ الجمعة.
+            كلٌّ ذلك دون اتصال ودون حساب.
           </p>
-          <div className="mt-10 flex items-center gap-3">
+          <div className="mt-10">
             <Button size="lg" asChild className="glow-gold-soft">
               <Link to="/tasbih">
                 ابدأ الذكر
                 <ArrowLeft aria-hidden />
               </Link>
-            </Button>
-            <Button variant="ghost" size="lg" asChild>
-              <Link to="/settings">الإعدادات</Link>
             </Button>
           </div>
         </motion.div>
@@ -106,7 +103,7 @@ export default function Landing() {
       </main>
 
       <footer className="relative z-10 border-t border-border/60 px-6 py-4 text-center text-xs text-muted-foreground">
-        يعمل دون اتصال • بلا حساب • بياناتك محفوظة على جهازك
+        يعمل دون اتصال — كل شيء يبقى على هذا الجهاز
       </footer>
     </div>
   );
