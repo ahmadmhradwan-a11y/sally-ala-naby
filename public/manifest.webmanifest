@@ -1,0 +1,19 @@
+{
+  "name": "صلِّ على النبي",
+  "short_name": "صلِّ على النبي",
+  "description": "عدّاد هادئ للصلاة على النبي ﷺ، مع سبحة عائمة وتذكير يوم الجمعة",
+  "dir": "rtl",
+  "lang": "ar",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0e1420",
+  "theme_color": "#0e1420",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

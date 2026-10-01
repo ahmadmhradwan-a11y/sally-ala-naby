@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="صلِّ على محمد">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="38%" r="75%">
+      <stop offset="0%" stop-color="#1b2740"/>
+      <stop offset="100%" stop-color="#0e1420"/>
+    </radialGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#glow)"/>
+  <rect x="26" y="26" width="460" height="460" rx="92" fill="none" stroke="#d9b978" stroke-opacity="0.22" stroke-width="3"/>
+  <circle cx="256" cy="256" r="196" fill="none" stroke="#d9b978" stroke-opacity="0.28" stroke-width="2"/>
+  <text x="256" y="238" text-anchor="middle" direction="rtl"
+        font-family="Amiri, 'Noto Naskh Arabic', 'Traditional Arabic', serif"
+        font-size="148" font-weight="700" fill="#d9b978">صلِّ</text>
+  <text x="256" y="372" text-anchor="middle" direction="rtl"
+        font-family="Amiri, 'Noto Naskh Arabic', 'Traditional Arabic', serif"
+        font-size="100" fill="#d9b978">على محمد</text>
+</svg>
