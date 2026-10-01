@@ -83,7 +83,12 @@ class RootErrorBoundary extends React.Component<
   }
 }
 
-const convex = new ConvexReactClient(import.meta.env.VITE_CONVEX_URL as string);
+const convex = new ConvexReactClient(
+  (import.meta.env.VITE_CONVEX_URL as string | undefined) ??
+    // Offline/standalone builds (e.g. the Android wrapper) carry no Convex URL.
+    // The app itself needs no backend, but the auth provider still requires a client.
+    "https://offline.invalid",
+);
 
 
 

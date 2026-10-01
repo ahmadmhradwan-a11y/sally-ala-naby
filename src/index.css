@@ -119,6 +119,50 @@
   }
 }
 
+/* Self-hosted Arabic fonts (Arabic subsets) — the app works fully offline */
+@font-face {
+  font-family: "Amiri";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Amiri-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Amiri";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/Amiri-700.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tajawal";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("/fonts/Tajawal-300.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tajawal";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/fonts/Tajawal-400.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tajawal";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("/fonts/Tajawal-500.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Tajawal";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("/fonts/Tajawal-700.woff2") format("woff2");
+}
+
 /* Project tokens (additive): Arabic typography + restrained gold accent */
 @theme {
   --font-display: "Amiri", "Scheherazade New", "Noto Naskh Arabic",
